@@ -38,7 +38,7 @@ JOIN Stocks S ON US.stock_id = S.stock_id;
 --  Return on Investment (ROI) Calculation using UserStocks and StockPrices tables
 -- Creates a view named ‘UserStocksROI’ encapsulating the logic to calculate the Return on Investment (ROI) for each user's stock holdings. The NULLIF function is employed to handle potential division by zero
 -- The second query retrieves all data from the newly created UserStocksROI view, allowing users to easily access and analyze the calculated ROI values for user-stock combinations
-CREATE VIEW UserStocksROI AS
+CREATE OR REPLACE VIEW UserStocksROI AS
 SELECT
     US.user_id,
     US.stock_id,

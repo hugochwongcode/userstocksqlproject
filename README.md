@@ -46,7 +46,10 @@ Double-check your database connection settings in the SQL client tool to ensure 
 Contributions are welcome! If you find issues, have suggestions, or want to add more queries, feel free to open an issue or submit a pull request
 
 ## Acknowledgements
-Special thanks to my instructor, Will Edwards, https://www.cantekcanada.com/about from Cantek IT Program for his guidance and support in teaching SQL concepts and techniques
+Special thanks to my instructor, Will Edwards, from Cantek IT Program for his guidance and support in teaching SQL concepts and techniques
+Additionally, Will Edwards is also the founder of Bright Tapestry Data. I encourage viewers to explore his firm for further insights into their innovative work. 
+Will Edwards: https://www.cantekcanada.com/about 
+Bright Tapestry Data: https://brighttapestrydata.com/people 
 
 ## License
 This project is licensed under the GNU Affero General Public License (AGPL) - see the LICENSE file for details.
